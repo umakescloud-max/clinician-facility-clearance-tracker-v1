@@ -1,0 +1,66 @@
+[
+  {
+    "id": "meet-renata",
+    "screen_id": "story",
+    "route": "/",
+    "target": "story-panel",
+    "title": "Meet Renata",
+    "body": "Renata keeps 14 contract clinicians cleared to work at 9 partner facilities, in about 6 hours a week. Here's her Monday before and after this tool."
+  },
+  {
+    "id": "every-packet",
+    "screen_id": "tracker",
+    "route": "/tracker",
+    "target": "tracker-table",
+    "title": "Every clearance, one view",
+    "body": "Each clinician at each facility gets its own row, showing what's still missing and how many days until their first scheduled study."
+  },
+  {
+    "id": "packet-history",
+    "screen_id": "case",
+    "route": "/packet",
+    "target": "case-timeline",
+    "title": "The full packet history",
+    "body": "Every document, facility reply and follow-up for a packet, in one timeline, with expiration dates shown next to each item."
+  },
+  {
+    "id": "blocked-caught",
+    "screen_id": "denials",
+    "route": "/blocked",
+    "target": "denial-row-2318",
+    "title": "A blocked start, caught early",
+    "body": "The facility returned this packet because the liability certificate expires too soon. It shows up here the same day, not at the next email check."
+  },
+  {
+    "id": "first-shift-clock",
+    "screen_id": "denials",
+    "route": "/blocked",
+    "target": "appeal-countdown",
+    "title": "The start date is visible",
+    "body": "A live countdown to the clinician's first scheduled study, so you can see how much time is left to fix the packet."
+  },
+  {
+    "id": "renata-decides",
+    "screen_id": "appeals",
+    "route": "/resubmit",
+    "target": "approval-queue-item",
+    "title": "Renata still decides",
+    "body": "Nothing goes back to a facility until Renata checks the documents and the cover note and clicks send herself."
+  },
+  {
+    "id": "numbers",
+    "screen_id": "tracker",
+    "route": "/tracker",
+    "target": "metric-panel",
+    "title": "The numbers that matter",
+    "body": "Clearance rate, average days to clear, blocked packets and documents expiring soon, all computed from the packet data."
+  },
+  {
+    "id": "how-built",
+    "screen_id": "architecture",
+    "route": "/architecture",
+    "target": "architecture-diagram",
+    "title": "How this would be built",
+    "body": "Documents sit in encrypted storage, a model reads expiration dates from uploads under a BAA, Slack carries owner alerts with no clinician data in them, and every facility send needs staff approval."
+  }
+]
